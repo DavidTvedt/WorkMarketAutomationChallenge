@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WorkMarket Automation Challenge Test Suite">
+
+	<test name="Register Page Tests">
+		<classes>
+			<class name="com.workmarketseleniumchallenge.registerPageTests.RegisterTest" />
+		</classes>
+	</test>
+
+	<test name="Search Page Tests">  
+		<classes>
+			<class name="com.workmerketseleniumchallenge.findTalentPageTests.SearchTest" />
+		</classes>
+	</test>
+
+</suite>
